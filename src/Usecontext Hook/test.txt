@@ -1,0 +1,1 @@
+https://api.varuvaai.in/varuvaai/product/variants/list
