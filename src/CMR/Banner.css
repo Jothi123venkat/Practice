@@ -1,0 +1,7 @@
+.Banner{
+    background-image: url(/src/Assests/bmw.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    margin-bottom: 40px;
+}
