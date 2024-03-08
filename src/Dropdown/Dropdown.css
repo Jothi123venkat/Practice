@@ -1,0 +1,7 @@
+.MuiInputBase-root,
+.MuiOutlinedInput-root,
+.MuiInputBase-colorPrimary,
+.MuiInputBase-formControl,
+.MuiSelect-root {
+    width: 50%;
+}

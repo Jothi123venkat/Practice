@@ -1,7 +1,24 @@
 .Banner{
-    background-image: url(/src/Assests/bmw.jpg);
-    height: 100vh;
+    background: linear-gradient(to top, #4481eb 0%, #04befe 100%);
+    height: auto;
     width: 100%;
     background-size: cover;
     margin-bottom: 40px;
+}
+img.cm-img {
+    width: 100%;
+    max-width: 326px;
+    margin-top: 40px;
+    filter: drop-shadow(18px 10px 8px #4444dd);
+}
+.banner-div {
+    padding: 4rem;
+}
+.content-div h1{
+    color: #fff;
+} 
+.content-button{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
 }

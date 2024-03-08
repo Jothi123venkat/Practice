@@ -155,8 +155,8 @@ export default function PrimarySearchAppBar() {
   );
 
   return (
-    <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="static">
+    <Box sx={{ flexGrow: 1 }} >
+      <AppBar position="fixed" sx={{background:'#fff',color:'#000'}}>
         <Toolbar>
           <IconButton
             size="large"

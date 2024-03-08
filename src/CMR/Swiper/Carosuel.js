@@ -10,45 +10,46 @@ import 'swiper/css/pagination';
 // import required modules
 import { Autoplay, Pagination } from 'swiper/modules';
 import { bmw, wall } from '../../Assests/JsExports';
+import { Container } from '@mui/material';
 
 export default function App() {
 
     const image  = [
         {
             name:"bmw",
-            image:wall
-        },{
-            name:"wall",
-            image: wall
-        },
+            image:'/accident 3.jpeg'
+        },    
         {
             name:"bmw",
-            image:wall
-        },{
-            name:"wall",
-            image: wall
-        },
+            image:'/accident 3.jpeg'
+        },   
         {
             name:"bmw",
-            image:wall
-        },{
-            name:"wall",
-            image: wall
-        },
+            image:'/accident 3.jpeg'
+        },   
         {
             name:"bmw",
-            image:wall
-        },{
-            name:"wall",
-            image: wall
-        },
+            image:'/accident 3.jpeg'
+        },   
+        {
+            name:"bmw",
+            image:'/accident 3.jpeg'
+        },   
+        {
+            name:"bmw",
+            image:'/accident 3.jpeg'
+        },   
+        {
+            name:"bmw",
+            image:'/accident 3.jpeg'
+        },   
     ]
 
   return (
-    <>
+    <Container>
       <Swiper
                 slidesPerView={3}
-                spaceBetween={30}
+                spaceBetween={20}
                 pagination={{
                     clickable: true,
                 }}
@@ -58,11 +59,11 @@ export default function App() {
             >
                 {image.map((image, index) => (
                     <SwiperSlide key={index}>
-                        <img src={image.image} alt={image.name} />
+                        <img src={image.image} alt={image.name} style={{width:'100%'}}/>
                     </SwiperSlide>
                 ))}
             </Swiper>
-    </>
+    </Container>
     
   );
 }
