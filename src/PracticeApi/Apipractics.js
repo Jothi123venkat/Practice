@@ -53,6 +53,9 @@ const Apipractics = () => {
           renderInput={(params) => <TextField {...params} label="population" />}
         />
       )}
+
+{getValues("population") && (
+        <h1>Autocomplete</h1>)}
     </div>
   );
 };

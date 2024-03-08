@@ -13,6 +13,9 @@ import Getvalues from './Getsetvalues/Getvalues'
 // import Params from './Component/Params/Params'
 import Setvalue from './Getsetvalues/Setvalue'
 import Apipractics from './PracticeApi/Apipractics'
+import Taskprops from './task/Taskprops'
+import { Route, Routes } from 'react-router-dom'
+import Propsget from './task/Propsget'
 
 const App = () => {
   return (
@@ -73,7 +76,15 @@ const App = () => {
 <h1>setValue</h1>
 <Setvalue/> */}
 
-<Apipractics/>
+{/* <Apipractics/> */}
+
+
+
+<Routes>
+  <Route path="/" element={<Taskprops />} />
+  <Route path='/gooo' element={<Propsget />} />
+</Routes>
+
 
     </div>
   )
