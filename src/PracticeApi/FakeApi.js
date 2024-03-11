@@ -2,13 +2,14 @@ import React, { useEffect, useState } from "react";
 import apiService from "../API/apiService";
 import TextField from "@mui/material/TextField";
 import Autocomplete from "@mui/material/Autocomplete";
+import useDidMountEffect from "../Hooks/useDidMountEffect";
 
 const FakeApi = () => {
   const [data, setData] = useState();
   const [vijaymovies, setVijaymovies] = useState();
   const [selectedmovie, setSelectedmovie] = useState();
 
-  useEffect(() => {
+  useDidMountEffect(() => {
     actorsApi();
     VijayfullMovies();
   }, []);
