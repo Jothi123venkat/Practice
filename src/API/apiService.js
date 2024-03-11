@@ -3,7 +3,7 @@ import axios from 'axios';
 const apiService = async (url, body, method) => {
     // DEV
     // https://freetestapi.com/api/v1/countries  
-    const URL = `https://freetestapi.com/api/v1/${url}`;
+    const URL = `https://jothi123venkat.github.io/${url}`;
     // QA
     // const URL = `http://ec2-43-205-125-143.ap-south-1.compute.amazonaws.com/cmrarf/${url}`;
     // LIVE

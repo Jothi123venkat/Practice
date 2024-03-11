@@ -16,6 +16,7 @@ import Apipractics from './PracticeApi/Apipractics'
 import Taskprops from './task/Taskprops'
 import { Route, Routes } from 'react-router-dom'
 import Propsget from './task/Propsget'
+import FakeApi from './PracticeApi/FakeApi'
 
 const App = () => {
   return (
@@ -79,13 +80,13 @@ const App = () => {
 {/* <Apipractics/> */}
 
 
-
+{/* 
 <Routes>
   <Route path="/" element={<Taskprops />} />
   <Route path='/gooo' element={<Propsget />} />
-</Routes>
+</Routes> */}
 
-
+<FakeApi/>
     </div>
   )
 }
