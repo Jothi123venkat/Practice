@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+
+p {
+  margin: 3px;
+}
+
+
+
+.modal h1{
+  margin: 0px;
+ 
+}

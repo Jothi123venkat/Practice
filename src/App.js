@@ -19,6 +19,11 @@ import Propsget from "./task/Propsget";
 import FakeApi from "./PracticeApi/FakeApi";
 import Upload from "./FileUpload/Upload";
 import Upload2 from "./FileUpload/Upload2";
+import Params from "./Component/Params/Params";
+import Paramsuse from "./Useparms/Paramsuse";
+import Showimageparms from "./Useparms/Showimageparms";
+import TaskCmr from './CMRTask/TaskCmr'
+import './App.css'
 
 const App = () => {
   return (
@@ -82,7 +87,7 @@ const App = () => {
   <Route path='/gooo' element={<Propsget />} />
 </Routes> */}
       {/* API */}
-      <FakeApi/>
+      {/* <FakeApi/> */}
 
 
       {/*file Upload in CMARf  */}
@@ -90,6 +95,17 @@ const App = () => {
       {/* <Upload/>   */}
       {/* for Practise */}
       {/* <Upload2/> */}
+
+  
+
+      {/* <Routes>
+        <Route path="/" element={<Paramsuse />} />
+        <Route path="/parms/:id" element={<Showimageparms />} />
+      </Routes> */}
+      
+      
+<TaskCmr/>
+
     </div>
   );
 };
