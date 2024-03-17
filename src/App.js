@@ -22,8 +22,15 @@ import Upload2 from "./FileUpload/Upload2";
 import Params from "./Component/Params/Params";
 import Paramsuse from "./Useparms/Paramsuse";
 import Showimageparms from "./Useparms/Showimageparms";
-import TaskCmr from './CMRTask/TaskCmr'
-import './App.css'
+import TaskCmr from "./CMRTask/TaskCmr";
+import "./App.css";
+import Practiceparms from "./Useparms/ParmsPractice/Practiceparms";
+import DisplayactorImages from "./Useparms/ParmsPractice/DisplayactorImages";
+import TableMap from "./TableMap/TableMap";
+import Tableparmsdisplay from "./TableMap/Tableparmsdisplay";
+import Control from "./Controllerr/Control";
+import Sentavalue from "./SentValueButton/Sentavalue";
+import Buttonsent from "./Buttonsent/Buttonsent";
 
 const App = () => {
   return (
@@ -89,22 +96,46 @@ const App = () => {
       {/* API */}
       {/* <FakeApi/> */}
 
-
       {/*file Upload in CMARf  */}
       {/* 2 file upload indigivual upload and close */}
       {/* <Upload/>   */}
       {/* for Practise */}
       {/* <Upload2/> */}
 
-  
-
       {/* <Routes>
         <Route path="/" element={<Paramsuse />} />
         <Route path="/parms/:id" element={<Showimageparms />} />
       </Routes> */}
-      
-      
-<TaskCmr/>
+
+      {/* Realtime working Task Run Json-server before running Taskcmr */}
+
+      {/* <TaskCmr/> */}
+
+      {/* useparms clear Example */}
+
+      {/* <Routes>
+  <Route path="/" element={<Practiceparms />} />
+  <Route path="/Actors/:id" element={<DisplayactorImages/>} />
+ </Routes> */}
+
+      {/* How to Display map a data in table */}
+
+      {/* <Routes>
+  <Route path="/" element={<TableMap />} />
+  <Route path="/Table/:id" element={<Tableparmsdisplay />} />
+ </Routes>
+  */}
+
+      {/* Validation Controller */}
+   {/* <Control/> */}
+
+  {/* how to sent a value by index */}
+
+  {/* <Sentavalue/> */}
+
+  {/* how to sent a value in button */}
+
+  <Buttonsent/>
 
     </div>
   );
