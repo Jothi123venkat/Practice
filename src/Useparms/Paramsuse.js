@@ -20,7 +20,7 @@ const Paramsuse = () => {
       setData(result.data.ActorsImages)
      }).catch((err) => {
        console.log(err);
-     });
+     });  
   }
 
   const handleImageclick =(id)=>{

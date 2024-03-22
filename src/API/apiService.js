@@ -5,10 +5,10 @@ const apiService = async (url, body, method) => {
     // https://freetestapi.com/api/v1/countries  
 // practiceParms
     // const URL = `https://jothi123venkat.github.io/actors/${url}`;
-  
-
+//   Varuvaai Api
+const URL = `https://api.varuvaai.in/varuvaai/${url}`;
     // taskcmr
-    const URL = `http://localhost:3700/${url}`;
+    // const URL = `http://localhost:3700/${url}`;
     // QA
     // const URL = `http://ec2-43-205-125-143.ap-south-1.compute.amazonaws.com/cmrarf/${url}`;
     // LIVE
@@ -19,7 +19,8 @@ const apiService = async (url, body, method) => {
     if (method === 'unauthpost') {
         const config = {
             headers: {
-                'Content-Type': 'application/json'
+                'Content-Type': 'application/json',
+                'X-TenantID': 1,
             },
         };
         return axios.post(URL, body, config)
@@ -31,6 +32,7 @@ const apiService = async (url, body, method) => {
         const config = {
             headers: {
                 'Content-Type': 'application/json',
+                'X-TenantID': 1,
             },
         };
         return axios.get(URL, config)

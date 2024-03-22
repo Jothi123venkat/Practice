@@ -14,7 +14,7 @@ import Getvalues from "./Getsetvalues/Getvalues";
 import Setvalue from "./Getsetvalues/Setvalue";
 import Apipractics from "./PracticeApi/Apipractics";
 import Taskprops from "./task/Taskprops";
-import { Route, Routes } from "react-router-dom";
+import { Link, Route, Routes } from "react-router-dom";
 import Propsget from "./task/Propsget";
 import FakeApi from "./PracticeApi/FakeApi";
 import Upload from "./FileUpload/Upload";
@@ -31,6 +31,15 @@ import Tableparmsdisplay from "./TableMap/Tableparmsdisplay";
 import Control from "./Controllerr/Control";
 import Sentavalue from "./SentValueButton/Sentavalue";
 import Buttonsent from "./Buttonsent/Buttonsent";
+import Count from "./Count/Count";
+import Varuavaaipractice from "./VaruvaaiApi/Varuavaaipractice";
+import Varuvaaidisplay from "./VaruvaaiApi/Varuvaaidisplay";
+import StorageLocal from "./Local & Session/StorageLocal";
+import HomePage from "./FIreBase Auth/HomePage";
+import Login from "./FIreBase Auth/Login";
+import Register from "./FIreBase Auth/Register";
+import Loginsuccess from "./FIreBase Auth/Loginsuccess";
+import Logins from "./Firebase_ui/Logins";
 
 const App = () => {
   return (
@@ -135,7 +144,40 @@ const App = () => {
 
   {/* how to sent a value in button */}
 
-  <Buttonsent/>
+  {/* <Buttonsent/> */}
+
+  {/* <Count/> */}
+
+{/* varuvaai API practice */}
+
+{/* <Routes>
+  <Route path="/" element={<Varuavaaipractice />} />
+  <Route path="/Products/:productId" element={<Varuvaaidisplay />} />
+</Routes> */}
+
+{/* local storage & Session storage */}
+{/* <StorageLocal/> */}
+
+{/* firebase Auth */}
+
+{/* <div style={{display:"flex",justifyContent:"space-between",backgroundColor:"#9ad3e2",textDecoration:"none"}}>
+<Link to="/" style={{textDecoration:"none"}}>Homepage</Link> <br />
+<Link to="/Login" style={{textDecoration:"none"}}>Login</Link>  <br />
+<Link to="/register" style={{textDecoration:"none"}}>Register</Link>
+</div> */}
+<Routes>
+  <Route path="/" element={<HomePage />} />
+  <Route path="/Login" element={<Login />} />
+  <Route path="/register" element={<Register />} />
+  <Route path="/LoginSuccess" element={<Loginsuccess />} />
+</Routes>
+
+
+ {/* <Routes>
+  <Route path="/" element={<Logins />} />
+  <Route path="/LoginSuccess" element={<Loginsuccess />} />
+ </Routes>
+  */}
 
     </div>
   );

@@ -292,7 +292,7 @@ const CmrAccordation1 = () => {
           alignItems="flex-start"
           sx={{ marginTop: "20px" }}
           spacing={3}
-        >
+        > 
           <Grid item sm={6} lg={6} xs={12}>
             <div style={{ display: "flex", flexDirection: "column" }}>
               <label htmlFor="legalHair">Legal Heir Certificate Number *</label>
