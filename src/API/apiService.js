@@ -4,9 +4,9 @@ const apiService = async (url, body, method) => {
     // DEV
     // https://freetestapi.com/api/v1/countries  
 // practiceParms
-    // const URL = `https://jothi123venkat.github.io/actors/${url}`;
+    const URL = `https://jothi123venkat.github.io/actors/${url}`;
 //   Varuvaai Api
-const URL = `https://api.varuvaai.in/varuvaai/${url}`;
+// const URL = `https://api.varuvaai.in/varuvaai/${url}`;
     // taskcmr
     // const URL = `http://localhost:3700/${url}`;
     // QA

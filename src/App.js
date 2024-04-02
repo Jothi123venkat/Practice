@@ -40,6 +40,11 @@ import Login from "./FIreBase Auth/Login";
 import Register from "./FIreBase Auth/Register";
 import Loginsuccess from "./FIreBase Auth/Loginsuccess";
 import Logins from "./Firebase_ui/Logins";
+import Design from './Varuvaaidesignlogin/Design'
+import LoginOk from "./Varuvaaidesignlogin/OtpLogin/LoginOk";
+import Practice from "./Summa/Practice";
+import Tanfundesign from "./Summa/Tanfundesign";
+
 
 const App = () => {
   return (
@@ -179,6 +184,15 @@ const App = () => {
  </Routes>
   */}
 
+{/* <Routes>
+    <Route path="/" element={<Design />} />
+    <Route path="/Login" element={<LoginOk />} />
+  </Routes> */}
+
+
+{/* <Practice/> */}
+
+{/* <Tanfundesign/> */}
     </div>
   );
 };
