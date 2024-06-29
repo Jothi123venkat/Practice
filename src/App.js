@@ -44,6 +44,16 @@ import Design from './Varuvaaidesignlogin/Design'
 import LoginOk from "./Varuvaaidesignlogin/OtpLogin/LoginOk";
 import Practice from "./Summa/Practice";
 import Tanfundesign from "./Summa/Tanfundesign";
+import Sidebarhome from "./Sidebar/Sidebarhome";
+import Add from "./Addtodo/Add";
+import Aadharmasking from "./Addtodo/Aadharmasking";
+import Prep from "./Prep/Prep";
+import Prac from "./Prac/Prac";
+import Pract3 from "./Prac section/Pract3";
+import Grid from "./Prac section/Grid";
+import Prac4 from "./Prac section/Prac4";
+import Method from "./Method/Method";
+import Referencs from "./Useref/Referencs";
 
 
 const App = () => {
@@ -170,12 +180,13 @@ const App = () => {
 <Link to="/Login" style={{textDecoration:"none"}}>Login</Link>  <br />
 <Link to="/register" style={{textDecoration:"none"}}>Register</Link>
 </div> */}
-<Routes>
+{/* login important */}
+{/* <Routes>
   <Route path="/" element={<HomePage />} />
   <Route path="/Login" element={<Login />} />
   <Route path="/register" element={<Register />} />
   <Route path="/LoginSuccess" element={<Loginsuccess />} />
-</Routes>
+</Routes> */}
 
 
  {/* <Routes>
@@ -193,6 +204,24 @@ const App = () => {
 {/* <Practice/> */}
 
 {/* <Tanfundesign/> */}
+
+{/* <Sidebarhome/> */}
+
+{/* varuvaai design */}
+{/* <Design/> */}
+
+{/* <Add/> */}
+{/* <Prep/> */}
+{/* <Aadharmasking/> */}
+
+{/* <Prac/> */}
+
+{/* <Pract3/> */}
+
+{/* <Grid/> */}
+{/* <Prac4/> */}
+{/* <Method/> */}
+ <Referencs/>
     </div>
   );
 };

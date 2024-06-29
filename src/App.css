@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -37,34 +37,27 @@
   }
 }
 
-
 p {
   margin: 3px;
 }
 
-
-
 .modal h1{
   margin: 0px;
- 
 }
-
-
-
 
 .forms {
   margin: 60px auto;
   padding: 20px;
-  background-color: #f0f8ff; /* Light blue background */
+  background-color: #f0f8ff;
   box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.3);
-  max-width: 500px; /* Limiting width */
+  max-width: 500px;
 }
 
 h1 {
   text-align: center;
-  background-color: #9ad3e2; /* Light blue header background */
-  margin-top: 0; /* Remove default margin */
-  padding: 10px; /* Add padding for better appearance */
+  background-color: #9ad3e2;
+  margin-top: 0; 
+  padding: 10px; 
 }
 
 .forms form {
@@ -86,7 +79,7 @@ h1 {
 
 .forms form > div input:focus {
   outline: none;
-  border-color: #007bff; /* Blue border on focus */
+  border-color: #007bff;
 }
 
 .forms form > div button {
@@ -95,24 +88,21 @@ h1 {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s ease; /* Smooth transition */
+  transition: background-color 0.3s ease;
 }
 
 .forms form > div button:hover {
-  background-color: #007bff; /* Darker blue on hover */
-  color: #fff; /* White text on hover */
+  background-color: #007bff;
+  color: #fff;
 }
 
 .forms form > div button:nth-child(2) {
-  margin-top: 10px; /* Add margin between buttons */
+  margin-top: 10px;
 }
-
-
 
 .Register form > div input {
   width: 100%;
   padding: 10px;
   border: 1px solid #ccc; 
   border-radius: 5px;
-}
-
+} */
