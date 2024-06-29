@@ -1,10 +1,11 @@
 import React, { useRef, useState } from 'react'
 
 const Referencs = () => {
-  const [input,setInput]=useState("");
+  const [input,setInput]=useState();
   const inputref = useRef();
 
   const handlebuttonclick =()=>{
+    // const getinput = [...input]
      setInput(inputref.current.value)
   }
 
