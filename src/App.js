@@ -54,6 +54,8 @@ import Grid from "./Prac section/Grid";
 import Prac4 from "./Prac section/Prac4";
 import Method from "./Method/Method";
 import Referencs from "./Useref/Referencs";
+import Zindex from "./Z-index/Zindex";
+import ReduxPractice from "./Redux/ReduxPractice";
 
 
 const App = () => {
@@ -221,7 +223,9 @@ const App = () => {
 {/* <Grid/> */}
 {/* <Prac4/> */}
 {/* <Method/> */}
- <Referencs/>
+ {/* <Referencs/> */}
+ {/* <Zindex/> */}
+ <ReduxPractice/>
     </div>
   );
 };
